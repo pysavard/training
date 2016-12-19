@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using POS.Product.interfaces;
 using POS.Product;
@@ -14,16 +8,16 @@ namespace TrainingForm
 {
 	public partial class FrmMain : Form
 	{
-		IMenuService _menuService { get; set; }
+	    private readonly IMenuService _menuService;
 		Invoice _invoice = new Invoice();
 
-		public FrmMain()
+		public FrmMain(IMenuService menuService)
 		{
-			InitializeComponent();
-			_menuService = new MenuService();
+		    _menuService = menuService;
+		    InitializeComponent();
 		}
 
-		private void FrmMain_Load(object sender, EventArgs e)
+	    private void FrmMain_Load(object sender, EventArgs e)
 		{
 			CreateMenu();
 		}

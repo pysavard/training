@@ -1,0 +1,7 @@
+D:\Sources\TrainingForm\POS.Product\bin\Debug\POS.Product.dll
+D:\Sources\TrainingForm\POS.Product\bin\Debug\POS.Product.pdb
+D:\Sources\TrainingForm\POS.Product\obj\Debug\POS.Product.csprojResolveAssemblyReference.cache
+D:\Sources\TrainingForm\POS.Product\obj\Debug\POS.Product.dll
+D:\Sources\TrainingForm\POS.Product\obj\Debug\POS.Product.pdb
+D:\Sources\TrainingForm\POS.Product\bin\Debug\Autofac.dll
+D:\Sources\TrainingForm\POS.Product\bin\Debug\Autofac.xml

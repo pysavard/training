@@ -1,0 +1,5 @@
+D:\Sources\TrainingForm\POS.Database\bin\Debug\POS.Database.dll
+D:\Sources\TrainingForm\POS.Database\bin\Debug\POS.Database.pdb
+D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.csprojResolveAssemblyReference.cache
+D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.dll
+D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.pdb

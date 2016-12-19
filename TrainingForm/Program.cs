@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Autofac;
+using POS.Product;
+using POS.Product.interfaces;
 
 namespace TrainingForm
 {
@@ -19,17 +18,14 @@ namespace TrainingForm
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 
-			var builder = new ContainerBuilder();
+			var builder = new ContainerBuilder();			
 
-			var assembly = Assembly.GetExecutingAssembly();
-
-			builder.RegisterAssemblyTypes(assembly)
-				   .Where(t => t.Name.EndsWith("Service"))
-				   .AsImplementedInterfaces();
+            builder.RegisterType(typeof(FrmMain));	
+		    builder.RegisterType(typeof (MenuService)).As<IMenuService>();
 
 			var container = builder.Build();
 
-			Application.Run(new FrmMain());
+			Application.Run(container.Resolve<FrmMain>());
 		}
 	}
 }

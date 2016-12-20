@@ -3,3 +3,8 @@ D:\Sources\TrainingForm\POS.Database\bin\Debug\POS.Database.pdb
 D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.csprojResolveAssemblyReference.cache
 D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.dll
 D:\Sources\TrainingForm\POS.Database\obj\Debug\POS.Database.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Database\bin\Debug\POS.Database.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Database\bin\Debug\POS.Database.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Database\obj\Debug\POS.Database.csprojResolveAssemblyReference.cache
+C:\Users\Pierre-Yves\Documents\training\POS.Database\obj\Debug\POS.Database.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Database\obj\Debug\POS.Database.pdb

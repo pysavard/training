@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using POS.Product.interfaces;
 using POS.Product;
@@ -7,17 +13,17 @@ using POS.Product;
 namespace TrainingForm
 {
 	public partial class FrmMain : Form
-	{
-	    private readonly IMenuService _menuService;
+	{		
+		private readonly IMenuService _menuService;
 		Invoice _invoice = new Invoice();
 
 		public FrmMain(IMenuService menuService)
 		{
-		    _menuService = menuService;
-		    InitializeComponent();
+			InitializeComponent();
+			_menuService = menuService;
 		}
 
-	    private void FrmMain_Load(object sender, EventArgs e)
+		private void FrmMain_Load(object sender, EventArgs e)
 		{
 			CreateMenu();
 		}
@@ -28,25 +34,44 @@ namespace TrainingForm
 
 			foreach (Control c in pnlMenu.Controls)
 			{
-				c.Click += new EventHandler((object sender, EventArgs e) =>  
+				c.Click += new EventHandler((object sender, EventArgs e) =>
 				{
 					Button b = (Button)sender;
-					_invoice.AddItem((Item)b.Tag,1);
+					_invoice.AddItem((Item)b.Tag, 1);
 					RefreshInvvoice();
 				});
 
 			}
 		}
 
+		
 		private void RefreshInvvoice()
 		{
 			lstInvoice.Clear();
 			_invoice.Lines.ToList().ForEach(x =>
 			{
-				lstInvoice.Items.Add(string.Format("{0}| {1} {2}", x.Qte.ToString(),x.Item.Name, x.Total().ToString("C")));
+				lstInvoice.Items.Add(string.Format("{0}| {1} {2}", x.Qte.ToString(), x.Item.Name, x.Total().ToString("C")));
 			});
 			lstInvoice.Items.Add(new string('_', 20));
-			lstInvoice.Items.Add(string.Format("Total {0}", _invoice.Lines.Sum(x =>x.Total()).ToString("C")));
+			lstInvoice.Items.Add(string.Format("Total {0}", _invoice.Lines.Sum(x => x.Total()).ToString("C")));
+
+
+			_menuService.GetAllCategory()
+							 .Where(category => _invoice
+									.Lines
+									.Any(l => l.Item.Category.Id == category.Id))
+			.ToList()
+			.ForEach(cat =>	lstInvoice.Items.Add(CreateGRoupingINvoiceLine(cat)));							
+		}
+
+		private string CreateGRoupingINvoiceLine(Category category)
+		{
+			return string.Format("Total {0} {1}",
+						category.Name,
+						_invoice
+							.Lines
+							.Where(l => l.Item.Category.Name == category.Name)
+							.Sum(x => x.Total()).ToString("C"));
 		}
 
 		private void cmdClear_Click(object sender, EventArgs e)

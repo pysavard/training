@@ -1,0 +1,42 @@
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\TrainingForm.exe.config
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\TrainingForm.exe
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\TrainingForm.pdb
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\Autofac.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\EntityFramework.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\POS.Product.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\System.Data.SQLite.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\POS.Product.pdb
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\Autofac.xml
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\EntityFramework.xml
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\bin\Debug\System.Data.SQLite.xml
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\TrainingForm.FrmMain.resources
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\TrainingForm.Properties.Resources.resources
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\TrainingForm.exe
+C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\TrainingForm\obj\Debug\TrainingForm.pdb
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\TrainingForm.exe.config
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\TrainingForm.exe
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\TrainingForm.pdb
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\Autofac.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\EntityFramework.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\POS.Product.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\System.Data.SQLite.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\POS.Product.pdb
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\Autofac.xml
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\EntityFramework.xml
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\System.Data.SQLite.xml
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\POS.csprojResolveAssemblyReference.cache
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.FrmMain.resources
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.Properties.Resources.resources
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\POS.csproj.GenerateResource.Cache
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.exe
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.pdb

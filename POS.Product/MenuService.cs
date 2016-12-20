@@ -1,4 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using POS.Product.interfaces;
 
 namespace POS.Product
@@ -15,5 +19,11 @@ namespace POS.Product
 		{
 			return Menu.Items;
 		}
+
+		public IList<Category> GetAllCategory()
+		{
+			return Menu.Categories;
+		}
+
 	}
 }

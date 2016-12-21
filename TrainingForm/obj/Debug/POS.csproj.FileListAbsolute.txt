@@ -40,3 +40,5 @@ C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.Prop
 C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\POS.csproj.GenerateResource.Cache
 C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.exe
 C:\Users\Pierre-Yves\Documents\training\TrainingForm\obj\Debug\TrainingForm.pdb
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\POS.Entities.dll
+C:\Users\Pierre-Yves\Documents\training\TrainingForm\bin\Debug\POS.Entities.pdb

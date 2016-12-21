@@ -3,3 +3,12 @@ C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\POS.Prod
 C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\POS.Product\obj\Debug\POS.Product.csprojResolveAssemblyReference.cache
 C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\POS.Product\obj\Debug\POS.Product.dll
 C:\Users\Pierre-Yves\documents\visual studio 2017\Projects\TrainingForm\POS.Product\obj\Debug\POS.Product.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Product\obj\Debug\POS.Product.csprojResolveAssemblyReference.cache
+C:\Users\Pierre-Yves\Documents\training\POS.Product\obj\Debug\POS.Product.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Product\obj\Debug\POS.Product.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\POS.Product.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\POS.Product.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\POS.Entities.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\POS.Entities.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\Autofac.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Product\bin\Debug\Autofac.xml

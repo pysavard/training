@@ -1,0 +1,5 @@
+C:\Users\Pierre-Yves\Documents\training\POS.Entities\bin\Debug\POS.Entities.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Entities\bin\Debug\POS.Entities.pdb
+C:\Users\Pierre-Yves\Documents\training\POS.Entities\obj\Debug\POS.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Pierre-Yves\Documents\training\POS.Entities\obj\Debug\POS.Entities.dll
+C:\Users\Pierre-Yves\Documents\training\POS.Entities\obj\Debug\POS.Entities.pdb

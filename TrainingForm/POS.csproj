@@ -101,6 +101,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\POS.Entities\POS.Entities.csproj">
+      <Project>{3f1a075c-9636-48da-9684-84fe68c49046}</Project>
+      <Name>POS.Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\POS.Product\POS.Product.csproj">
       <Project>{fa76863a-47ab-4478-96a4-6f7b4729b3a7}</Project>
       <Name>POS.Product</Name>

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace POS.Product
+namespace POS.Entities
 {
 	public class Invoice
 	{
@@ -28,8 +25,7 @@ namespace POS.Product
 			}
 
 			currentLine.Qte++;			
-		}
-			 
+		}			 
 	}
 
 	public class InvoiceLine

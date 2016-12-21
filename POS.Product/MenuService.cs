@@ -1,28 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using POS.Entities;
 using POS.Product.interfaces;
 
 namespace POS.Product
 {
 	public class MenuService : IMenuService
 	{
-		public MenuService()
+		private readonly IMenuProviderService _menuProviderService;
+
+		public MenuService(IMenuProviderService menuProviderService)
 		{
-			Menu = new Menu();
-		}
-		private Menu Menu { get; set; }
+			_menuProviderService = menuProviderService;
+		}		
 
 		public IList<Item> GetAllItems()
 		{
-			return Menu.Items;
+			return _menuProviderService.GetDefaultMenu().Items;
 		}
 
 		public IList<Category> GetAllCategory()
 		{
-			return Menu.Categories;
+			return _menuProviderService.GetDefaultMenu().Categories;
 		}
 
 	}

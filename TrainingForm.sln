@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Database", "POS.Databas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Product", "POS.Product\POS.Product.csproj", "{FA76863A-47AB-4478-96A4-6F7B4729B3A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Product.UnitTest", "POS.Product.UnitTest\POS.Product.UnitTest.csproj", "{FD75553E-4AF9-4E12-91CB-510EBBBF5AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POS.Entities", "POS.Entities\POS.Entities.csproj", "{3F1A075C-9636-48DA-9684-84FE68C49046}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FA76863A-47AB-4478-96A4-6F7B4729B3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA76863A-47AB-4478-96A4-6F7B4729B3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA76863A-47AB-4478-96A4-6F7B4729B3A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD75553E-4AF9-4E12-91CB-510EBBBF5AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD75553E-4AF9-4E12-91CB-510EBBBF5AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD75553E-4AF9-4E12-91CB-510EBBBF5AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD75553E-4AF9-4E12-91CB-510EBBBF5AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F1A075C-9636-48DA-9684-84FE68C49046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1A075C-9636-48DA-9684-84FE68C49046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1A075C-9636-48DA-9684-84FE68C49046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1A075C-9636-48DA-9684-84FE68C49046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

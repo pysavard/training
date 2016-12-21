@@ -1,5 +1,5 @@
 ﻿using POS.Entities;
-using POS.Product.interfaces;
+using POS.Product.Interfaces;
 
 namespace POS.Product
 {

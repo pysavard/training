@@ -44,8 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutofacModule.cs" />
+    <Compile Include="InvoiceService.cs" />
+    <Compile Include="interfaces\IInvoiceService.cs" />
+    <Compile Include="interfaces\IMagieService.cs" />
     <Compile Include="interfaces\IMenuProviderService.cs" />
     <Compile Include="interfaces\IMenuService.cs" />
+    <Compile Include="MAgieService.cs" />
     <Compile Include="MenuProviderService.cs" />
     <Compile Include="MenuService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

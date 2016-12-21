@@ -2,8 +2,9 @@
 using POS.Entities;
 using Ploeh.AutoFixture;
 using System.Collections.Generic;
-using POS.Product.interfaces;
+using POS.Product.Interfaces;
 using FluentAssertions;
+using System.Linq;
 
 namespace POS.Product.UnitTest
 {
@@ -13,7 +14,7 @@ namespace POS.Product.UnitTest
 		[TestMethod]
 		public void GetAllItems_ShouldReturnAllItems()
 		{
-			//Arrange
+			//Arrange			
 			Menu menu = AutoFixture.Create<Menu>();
 
 			GetMock<IMenuProviderService>()
@@ -21,10 +22,25 @@ namespace POS.Product.UnitTest
 				.Returns(menu);
 
 			//Act
-			IList<Item> result = TestInstance.GetAllItems();
+			IList<Item> result = TestInstance.GetAllItems();			
 
 			//Assert 
 			result.ShouldAllBeEquivalentTo(menu.Items);
+		}
+
+		[TestMethod]
+		public void ShouldDoMagic()
+		{
+			//Arrange
+			GetMock<IMenuProviderService>()
+				.Setup(x => x.GetDefaultMenu()).Returns(AutoFixture.Create<Menu>());
+
+			//Act
+			TestInstance.GetAllItems();
+
+			//Assert 
+			GetMock<IMagieService>().Verify(x => x.DoMagic(), Moq.Times.Once);
+
 		}
 	}
 }

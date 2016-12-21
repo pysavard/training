@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Windows.Forms;
 using Autofac;
 using POS.Product;
-using POS.Product.interfaces;
+using POS.Product.Interfaces;
 
 namespace TrainingForm
 {

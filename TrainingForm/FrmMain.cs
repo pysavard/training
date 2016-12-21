@@ -1,21 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using POS.Entities;
-using POS.Product.interfaces;
+using POS.Product.Interfaces;
 
 namespace TrainingForm
 {
 	public partial class FrmMain : Form
 	{		
 		private readonly IMenuService _menuService;
+		private readonly IInvoiceService _invoiceService;
 		Invoice _invoice = new Invoice();
 
-		public FrmMain(IMenuService menuService)
+	public FrmMain(IMenuService menuService, IInvoiceService invoiceService)
 		{
 			InitializeComponent();
 			_menuService = menuService;
+			_invoiceService = invoiceService;
 		}
 
 		private void FrmMain_Load(object sender, EventArgs e)
@@ -32,7 +35,7 @@ namespace TrainingForm
 				c.Click += new EventHandler((object sender, EventArgs e) =>
 				{
 					Button b = (Button)sender;
-					_invoice.AddItem((Item)b.Tag, 1);
+					_invoiceService.AddItemToInvoice(_invoice, (Item)b.Tag, 1);
 					RefreshInvvoice();
 				});
 
@@ -49,6 +52,9 @@ namespace TrainingForm
 			});
 			lstInvoice.Items.Add(new string('_', 20));
 			lstInvoice.Items.Add(string.Format("Total {0}", _invoice.Lines.Sum(x => x.Total()).ToString("C")));
+
+
+			var test = _invoice.Lines.Select(x => new { Bob = x.Item.Name, Bobette =  x.Qte });
 
 
 			_menuService.GetAllCategory()

@@ -12,20 +12,16 @@ namespace POS.Entities
 			Lines = new List<InvoiceLine>();
 		}
 
-		public void AddItem(Item item, int qte)
+		public void AddInvoiceLine(InvoiceLine line)
 		{
-			InvoiceLine currentLine = Lines.SingleOrDefault(x => x.Item.Id == item.Id);
+			Lines.Add(line);
+		}
 
-			if (currentLine == null) {
-				currentLine = new InvoiceLine
-				{
-					Item = item
-				};
-				Lines.Add(currentLine);
-			}
-
-			currentLine.Qte++;			
-		}			 
+		public InvoiceLine GetInvoiceLine(int itemId)
+		{
+			return Lines.SingleOrDefault(x => x.Item.Id == itemId);
+		}
+		 
 	}
 
 	public class InvoiceLine

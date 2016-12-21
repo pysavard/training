@@ -1,6 +1,6 @@
 ﻿using POS.Entities;
 
-namespace POS.Product.interfaces
+namespace POS.Product.Interfaces
 {
 	public interface IMenuProviderService
 	{
